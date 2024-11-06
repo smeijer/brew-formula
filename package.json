@@ -1,0 +1,37 @@
+{
+  "name": "brew-formula",
+  "version": "0.0.5",
+  "description": "Create a brew formula for an npm package",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "brew-formula": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "ncc build 'src/index.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephan Meijer",
+  "license": "MIT",
+  "devDependencies": {
+    "@octokit/rest": "^21.0.2",
+    "@types/node": "^20.3.2",
+    "@vercel/ncc": "^0.38.1",
+    "change-case": "^4.1.2",
+    "commander": "^12.1.0",
+    "esbuild": "^0.18.10",
+    "got": "^13.0.0",
+    "kleur": "^4.1.5",
+    "ora": "^6.3.1",
+    "spdx-license-ids": "^3.0.20",
+    "strip-indent": "^4.0.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.6.2"
+  }
+}
