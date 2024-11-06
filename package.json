@@ -1,6 +1,6 @@
 {
   "name": "brew-formula",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Create a brew formula for an npm package",
   "main": "index.js",
   "type": "module",
